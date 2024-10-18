@@ -13,19 +13,19 @@ html, body {
 }
 
 .boot-screen {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh; 
   overflow: hidden;
 }
 
 .boot-screen h1, .loader {
-  float: left;
-  width: 100%;
+  margin: 20px 0;
   text-align: center;
 }
 
 .boot-screen h1 {
-  margin: 20px 0;
   font-size: 2rem;
   color: #00ff00;
 }
@@ -45,9 +45,10 @@ html, body {
   100% { transform: rotate(360deg); }
 }
 
-/* Login Screen */
 .login-screen {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   background-color: black;
 }
@@ -55,9 +56,9 @@ html, body {
 .login-text {
   color: #00ff00;
   font-size: 1.5rem;
+  text-align: center;
 }
 
-/* Terminal */
 .terminal {
   background-color: black;
   color: #00ff00;
@@ -75,13 +76,13 @@ html, body {
 
 .input-container {
   display: flex;
-  align-items: center; /* Vertically center align the prompt and input */
-  margin-top: 10px; /* Optional: Add some margin to the top for spacing */
+  align-items: center;
+  margin-top: 10px;
 }
 
 .prompt {
-  margin-right: 5px; /* Space between the prompt and the input */
-  font-size: 1.2rem; /* Same font size for consistency */
+  margin-right: 5px;
+  font-size: 1.2rem;
 }
 
 .terminal-input {
@@ -92,5 +93,5 @@ html, body {
   font-size: 1.2rem;
   font-family: 'Courier New', monospace;
   caret-color: #00ff00;
-  width: 100%; /* Ensure it spans the full width */
+  width: 100%;
 }
