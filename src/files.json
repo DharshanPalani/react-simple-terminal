@@ -1,0 +1,18 @@
+{
+  "root": {
+    "folders": {
+      "folder1": {
+        "files": ["game.sh"],
+        "folders": {}
+      },
+      "folder2": {
+        "files": ["game.sh"],
+        "folders": {}
+      },
+      "folder3": {
+        "files": ["game.sh"],
+        "folders": {}
+      }
+    }
+  }
+}
